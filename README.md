@@ -28,3 +28,6 @@ Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mis
 ![Reseau](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/829b04bc-e509-44e6-b4b2-bdc6ae94a6fa)
 
 Le troisième module est une liste de réseau qui est présent. Les informations sont mise à jour périodiquement
+
+## Note
+A noté que l'application est disponible en anglais et français et aussi, est adapté sur un format paysage
