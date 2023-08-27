@@ -23,3 +23,8 @@ Après le clic d'un module, les détails du billet s'affiche avec un pays indiqu
 Le deuxième module gère les différentes bornes déja installer. La liste se met à jour chaque minute.
 
 Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mise à jour a chaque fois que nous appuillons sur le bouton "mise à jour". Redemérer permet de rafraichir toute les données.
+
+### 3ème module
+![Reseau](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/531f4ea1-98c4-4d22-9fb8-0595229dad42)
+
+Le troisième module est une liste de réseau qui est présent. Les informations sont mise à jour périodiquement
