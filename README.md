@@ -18,3 +18,8 @@ Le premier module affiche des billets enregistrers trier par niveau de criticit�
 Après le clic d'un module, les détails du billet s'affiche avec un pays indiquer. Si on clic sur l'icone de carte, une integration de google map sort l'endroit que le billet à été ouvert. Deux boutons peuvent être clicker, résoudre, qui permet de changer le statut du billet et installer, qui permet d'installer une borne à l'endroit du billet à l'aide d'un scan QR a partir de la caméra du téléphone.
 
 ### 2ème module
+![Passerelle](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/cbf0c97f-e701-4dec-8a26-ac5e20e183a2)![PasserelleDetail](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/ee95748d-a1a4-427b-a999-5cc609f6f6e8)
+
+Le deuxième module gère les différentes bornes déja installer. La liste se met à jour chaque minute.
+
+Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mise à jour a chaque fois que nous appuillons sur le bouton "mise à jour".
