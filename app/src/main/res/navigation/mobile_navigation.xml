@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_ticket">
+
+    <fragment
+        android:id="@+id/navigation_ticket"
+        android:name="ca.qc.cstj.tpsynthese.ui.ticket.list.TicketFragment"
+        android:label="@string/nav_tickets"
+        tools:layout="@layout/fragment_ticket" >
+        <action
+            android:id="@+id/action_navigation_ticket_to_detailTicketFragment"
+            app:destination="@id/detailTicketFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_gateway"
+        android:name="ca.qc.cstj.tpsynthese.ui.gateway.list.GatewayFragment"
+        android:label="@string/nav_gateways"
+        tools:layout="@layout/fragment_gateway" >
+        <action
+            android:id="@+id/action_navigation_gateway_to_detailGatewayFragment"
+            app:destination="@id/detailGatewayFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_network"
+        android:name="ca.qc.cstj.tpsynthese.ui.network.list.NetworkFragment"
+        android:label="@string/nav_network"
+        tools:layout="@layout/fragment_network" />
+    <activity
+        android:id="@+id/loadingActivity"
+        android:name="ca.qc.cstj.tpsynthese.ui.loading.LoadingActivity"
+        android:label="activity_loading"
+        tools:layout="@layout/activity_loading" />
+    <fragment
+        android:id="@+id/detailTicketFragment"
+        tools:layout="@layout/fragment_detail_ticket"
+        android:name="ca.qc.cstj.tpsynthese.ui.ticket.detail.DetailTicketFragment"
+        android:label="DetailTicketFragment" >
+        <argument
+            android:name="href"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_detailTicketFragment_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="ca.qc.cstj.tpsynthese.ui.maps.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" >
+        <argument
+            android:name="coordinate"
+            app:argType="com.google.android.gms.maps.model.LatLng" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </activity>
+    <fragment
+        android:id="@+id/detailGatewayFragment"
+        android:name="ca.qc.cstj.tpsynthese.ui.gateway.detail.DetailGatewayFragment"
+        android:label="DetailGatewayFragment"
+        tools:layout="@layout/fragment_detail_gateway">
+        <argument
+            android:name="href"
+            app:argType="string" />
+    </fragment>
+</navigation>
