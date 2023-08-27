@@ -22,4 +22,4 @@ Après le clic d'un module, les détails du billet s'affiche avec un pays indiqu
 
 Le deuxième module gère les différentes bornes déja installer. La liste se met à jour chaque minute.
 
-Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mise à jour a chaque fois que nous appuillons sur le bouton "mise à jour".
+Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mise à jour a chaque fois que nous appuillons sur le bouton "mise à jour". Redemérer permet de rafraichir toute les données.
