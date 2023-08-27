@@ -25,6 +25,6 @@ Le deuxième module gère les différentes bornes déja installer. La liste se m
 Après avoir clicker sur une borne, ces détails s'affiches. Sa lattence est mise à jour a chaque fois que nous appuillons sur le bouton "mise à jour". Redemérer permet de rafraichir toute les données.
 
 ### 3ème module
-![Reseau](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/531f4ea1-98c4-4d22-9fb8-0595229dad42)
+![Reseau](https://github.com/WBergeron/TPSyntheseAndroid/assets/70408290/829b04bc-e509-44e6-b4b2-bdc6ae94a6fa)
 
 Le troisième module est une liste de réseau qui est présent. Les informations sont mise à jour périodiquement
